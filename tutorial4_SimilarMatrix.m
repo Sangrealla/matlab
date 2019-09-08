@@ -80,9 +80,9 @@ lambda = []; B2=[];
 for i = 1:6
     str=['[v,d]=eigs(a',int2str(i),',',int2str(1),');v=v/sum(v);']
     eval(str)
-    lambda = [lambda,d];B2=[B2,v]
+    lambda = [lambda,d];B2=[B2,v];
 end
-lambda,B2;
+lambda;B2;
 B3=B2*B1;
 %% 
 % Âí¶û¿Æ·òÁ´£¨Markov Chain£©
