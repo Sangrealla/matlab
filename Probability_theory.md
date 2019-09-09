@@ -2,10 +2,10 @@
 $\mu=2ln(\frac{1}{n}\sum\limits_{i=1}^n x_i)-\frac{1}{2}ln(\frac{1}{n}\sum\limits_{i=1}^n (x_i)^2)$  
 $\sigma^2=ln(\frac{1}{n}\sum\limits_{i=1}^n (x_i)^2)-2ln(\frac{1}{n}\sum\limits_{i=1}^n x_i)$  
 
-表格
+随机数产生函数
 --------
 
-表头1  | 表头2|
---------- | --------|
-表格单元  | 表格单元 |
-表格单元  | 表格单元 |
+函数名称  | 函数说明|调用格式
+:---------: | :--------:|:--------|
+betarnd | \beta分布的随机数 |R=betarnd(A,B,m,n)|
+表格单元  | 表格单元 ||
