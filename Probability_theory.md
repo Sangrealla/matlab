@@ -5,7 +5,7 @@ $\sigma^2=ln(\frac{1}{n}\sum\limits_{i=1}^n (x_i)^2)-2ln(\frac{1}{n}\sum\limits_
 随机数产生函数
 --------
 
-函数名称  | 函数说明|调用格式
+|函数名称  | 函数说明|调用格式|
 |:---------: | :--------:|:--------|
-|betarnd | \beta分布的随机数 |R=betarnd(A,B,m,n)|
-|表格单元  | 表格单元 ||
+|betarnd | $\beta$分布的随机数 |R=betarnd(A,B,m,n)|
+|binornd | 二项分布随机数|R=binornd(N,P,m,n)|
