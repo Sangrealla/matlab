@@ -15,4 +15,5 @@ $\sigma^2=ln(\frac{1}{n}\sum\limits_{i=1}^n (x_i)^2)-2ln(\frac{1}{n}\sum\limits_
 ************
 ## 假设检验
 ### 1.参数检验
-[h,p,ci]=ztest(x,$/mu$,$/sigma$,$/alpha$,$/tail$)
+*1.单个总体N($\mu$,$\sigma^2$)的检验  
+  *$\sigma^2$已知，关于$\mu$的检验，z检验：[h,p,ci]=ztest(x,$/mu$,$/sigma$,$/alpha$,$/tail$)
