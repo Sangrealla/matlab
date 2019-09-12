@@ -15,4 +15,4 @@ $\sigma^2=ln(\frac{1}{n}\sum\limits_{i=1}^n (x_i)^2)-2ln(\frac{1}{n}\sum\limits_
 ************
 ## 假设检验
 ### 1.参数检验
-$[h,p,ci]=ztest(x,/mu,/sigma,/alpha,/tail)$
+[h,p,ci]=ztest(x,$/mu$,$/sigma$,$/alpha$,$/tail$)
